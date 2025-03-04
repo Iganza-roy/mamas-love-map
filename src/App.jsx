@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Hero from './components/Hero';
+import HeroSection from './components/Hero';
 import PoemGenerator from './components/PoemGenerator';
-import ImpactMap from './components/ImpactMap';
+import MotherImpactMap from './components/ImpactMap';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Hero />
+      <HeroSection />
       <PoemGenerator />
-      <ImpactMap />
+      <MotherImpactMap />
       <Footer />
     </div>
   );

@@ -1,44 +1,26 @@
-// src/components/Hero.jsx
 import React from 'react';
 
-function Hero() {
+const HeroSection = () => {
   return (
-    <section className='relative py-20 bg-gradient-to-r from-pink-500 to-purple-800'>
-      <div className='container mx-auto px-4 text-center'>
-        <h1 className='text-4xl md:text-6xl font-bold text-white mb-4'>
-          Celebrating Women's Month & Mother's Day
-        </h1>
-        <p className='text-xl text-white mb-8'>
-          Honor the women who shaped your life with a poem or tribute on our
-          global map
-        </p>
-        <div className='flex flex-wrap justify-center gap-4'>
-          <a
-            href='#poem-generator'
-            className='bg-yellow-400 hover:bg-yellow-500 text-purple-900 font-bold py-3 px-6 rounded-full transition duration-300'
-          >
-            Generate a Poem
-          </a>
-          <a
-            href='#impact-map'
-            className='bg-white hover:bg-gray-100 text-purple-900 font-bold py-3 px-6 rounded-full transition duration-300'
-          >
-            Explore the Map
-          </a>
-        </div>
-      </div>
-      <div className='absolute bottom-0 left-0 w-full overflow-hidden'>
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          viewBox='0 0 1200 120'
-          preserveAspectRatio='none'
-          className='text-white fill-current h-16'
+    <div className="bg-gradient-to-r from-[#5A189A] to-[#FF69B4] text-white py-20 px-6 text-center">
+      <h1 className="text-5xl font-bold mb-6">Celebrating Mothers & Women</h1>
+      <p className="text-xl mb-10">Honor the incredible women who shape our world</p>
+      <div className="flex justify-center space-x-6">
+        <a 
+          href="#poem-generator" 
+          className="bg-[#FFD700] text-[#5A189A] px-6 py-3 rounded-full hover:bg-opacity-90 transition"
         >
-          <path d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z'></path>
-        </svg>
+          Generate a Poem
+        </a>
+        <a 
+          href="#impact-map" 
+          className="border-2 border-white px-6 py-3 rounded-full hover:bg-white hover:text-[#5A189A] transition"
+        >
+          Explore Impact Map
+        </a>
       </div>
-    </section>
+    </div>
   );
-}
+};
 
-export default Hero;
+export default HeroSection;
