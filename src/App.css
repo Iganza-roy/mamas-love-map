@@ -1,5 +1,4 @@
-/* App.css */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 :root {
   --hot-pink: #ff69b4;
@@ -14,7 +13,8 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Righteous', sans-serif;
+  font-optical-sizing: auto;
   color: #333;
 }
 
@@ -24,7 +24,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Righteous', sans-serif;
+  letter-spacing: 2px;
 }
 
 /* Custom animations */
